@@ -85,6 +85,7 @@ mvn spring-boot:run
 Este é um projeto de estudo desenvolvido por um programador iniciante em Java e Spring Boot. O código pode conter implementações básicas e está em constante evolução conforme novos conceitos são aprendidos.
 
 ### Objetivos de Aprendizado:
+
 - ✅ Entender os conceitos de Spring Boot
 - ✅ Implementar padrão MVC e arquitetura em camadas
 - ✅ Trabalhar com JPA e persistência de dados
@@ -97,9 +98,13 @@ Este é um projeto de estudo desenvolvido por um programador iniciante em Java e
 
 Sugestões e feedbacks são bem-vindos! Este é um projeto de aprendizado e qualquer orientação é muito apreciada.
 
-## 📝 Licença
+## 📝 Direitos Autorais e Uso
 
-Este projeto está sob licença MIT.
+**Copyright © 2025 Octavio Costa Chiquim. All Rights Reserved.**
+
+Este projeto é de uso exclusivo, não pode ser distribuído, modificado ou utilizado por terceiros sem meu consentimento explícito.
+
+Todos os direitos autorais são reservados. Nenhuma parte deste projeto pode ser reproduzida, distribuída ou transmitida de qualquer forma ou por qualquer meio sem a permissão prévia por escrito do autor.
 
 ---
 
