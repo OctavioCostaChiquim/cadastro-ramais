@@ -78,6 +78,18 @@ mvn spring-boot:run
 | PUT | /ramais/{id} | Atualiza ramal existente |
 | DELETE | /ramais/{id} | Remove ramal |
 
+## 📸 Exemplos Visuais
+
+> **Nota:** Esta seção está reservada para capturas de tela e GIFs demonstrativos da aplicação.
+> 
+> **Sugestões de conteúdo visual:**
+> - Screenshot da interface Swagger UI mostrando os endpoints disponíveis
+> - GIF demonstrando o fluxo de criação de um novo ramal
+> - Imagem da resposta JSON de exemplo dos endpoints
+> - Screenshot do banco H2 Console (se aplicável)
+
+*Em breve serão adicionados exemplos visuais para facilitar o entendimento do projeto.*
+
 ## 📖 Status de Aprendizado
 
 ⚠️ **Projeto em Desenvolvimento - Nível Iniciante**
@@ -94,9 +106,44 @@ Este é um projeto de estudo desenvolvido por um programador iniciante em Java e
 - 🔄 Implementar testes unitários (em andamento)
 - 🔄 Adicionar autenticação e autorização (planejado)
 
+## 🎯 Metas de Aprendizado Futuras
+
+Objetivos para evolução contínua do projeto e aprimoramento das habilidades em desenvolvimento:
+
+- 📝 **Testes Automatizados**
+  - Implementar testes unitários com JUnit
+  - Criar testes de integração
+  - Adicionar cobertura de testes com JaCoCo
+
+- 🔐 **Segurança de APIs**
+  - Implementar autenticação JWT
+  - Adicionar Spring Security
+  - Aplicar boas práticas de segurança (HTTPS, CORS)
+
+- 🚀 **CI/CD Básico**
+  - Configurar GitHub Actions para build automático
+  - Implementar pipeline de testes automatizados
+  - Criar deploy automatizado (Heroku, Railway ou similar)
+
+- 🗄️ **Melhorias de Banco de Dados**
+  - Migrar para PostgreSQL em produção
+  - Implementar migrations com Flyway ou Liquibase
+  - Otimizar queries e índices
+
+- 📊 **Observabilidade**
+  - Adicionar logs estruturados
+  - Implementar métricas com Spring Actuator
+  - Configurar monitoramento básico
+
 ## 🤝 Contribuições
 
 Sugestões e feedbacks são bem-vindos! Este é um projeto de aprendizado e qualquer orientação é muito apreciada.
+
+## 👨‍💻 Sobre o Desenvolvedor
+
+Sou um desenvolvedor em constante aprendizado, buscando ativamente interagir em projetos open source e participar de comunidades de tecnologia. Acredito na colaboração e no compartilhamento de conhecimento como pilares fundamentais para o crescimento profissional.
+
+Estou sempre aberto a novas oportunidades de aprendizado, mentoria e contribuição em projetos que possam agregar valor e expandir minhas habilidades técnicas.
 
 ## 📝 Direitos Autorais e Uso
 
