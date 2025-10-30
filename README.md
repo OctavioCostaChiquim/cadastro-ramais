@@ -2,12 +2,12 @@
 
 ## 📋 Descrição do Projeto
 
-Sistema de cadastro e gerenciamento de ramais telefônicos desenvolvido como projeto de aprendizado em Java e Spring Boot. O projeto implementa um CRUD completo com validações, documentação de API e arquitetura em camadas.
+Esse é um sistema de cadastro e gerenciamento de ramais telefônicos que desenvolvi como projeto de aprendizado em Java e Spring Boot. Implementei um CRUD completo com validações, documentação de API e arquitetura em camadas.
 
 ## 🚀 Tecnologias Utilizadas
 
 - **Java 25** - Linguagem de programação
-- **Spring Boot** - Framework para desenvolvimento de aplicações Java
+- **Spring Boot** - Framework pra desenvolvimento de aplicações Java
 - **Spring Data JPA** - Persistência de dados
 - **Spring Validation** - Validação de dados
 - **Swagger/OpenAPI** - Documentação da API
@@ -16,28 +16,28 @@ Sistema de cadastro e gerenciamento de ramais telefônicos desenvolvido como pro
 
 ## ✨ Principais Funcionalidades
 
-- **CRUD Completo de Ramais**
-  - Criar novos ramais
-  - Listar todos os ramais cadastrados
-  - Buscar ramal específico por ID
-  - Atualizar informações de ramais
-  - Excluir ramais
+### CRUD Completo de Ramais
+- Criar novos ramais
+- Listar todos os ramais cadastrados
+- Buscar ramal específico por ID
+- Atualizar informações de ramais
+- Excluir ramais
 
-- **Validação de Dados**
-  - Validação de campos obrigatórios
-  - Validação de formato de dados
-  - Tratamento de erros personalizado
+### Validação de Dados
+- Validação de campos obrigatórios
+- Validação de formato de dados
+- Tratamento de erros personalizado
 
-- **Documentação Swagger**
-  - Interface interativa para testar a API
-  - Documentação automática dos endpoints
-  - Modelos de requisição e resposta
+### Documentação Swagger
+- Interface interativa pra testar a API
+- Documentação automática dos endpoints
+- Modelos de requisição e resposta
 
-- **Arquitetura em Camadas**
-  - Controller - Camada de apresentação
-  - Service - Camada de negócios
-  - Repository - Camada de acesso a dados
-  - Model/Entity - Camada de domínio
+### Arquitetura em Camadas
+- Controller - Camada de apresentação
+- Service - Camada de negócios
+- Repository - Camada de acesso a dados
+- Model/Entity - Camada de domínio
 
 ## 🔧 Instalação e Execução
 
@@ -47,7 +47,7 @@ Sistema de cadastro e gerenciamento de ramais telefônicos desenvolvido como pro
 - Maven instalado
 - Git instalado
 
-### Passos para executar
+### Passos pra executar
 
 1. Clone o repositório:
 ```bash
@@ -71,7 +71,7 @@ mvn spring-boot:run
 ## 📚 Endpoints da API
 
 | Método | Endpoint | Descrição |
-|--------|----------|----------|
+|--------|----------|------------|
 | GET | /ramais | Lista todos os ramais |
 | GET | /ramais/{id} | Busca ramal por ID |
 | POST | /ramais | Cria novo ramal |
@@ -80,21 +80,21 @@ mvn spring-boot:run
 
 ## 📸 Exemplos Visuais
 
-> **Nota:** Esta seção está reservada para capturas de tela e GIFs demonstrativos da aplicação.
+> **Nota:** Tô planejando adicionar aqui capturas de tela e GIFs demonstrativos da aplicação.
 > 
-> **Sugestões de conteúdo visual:**
-> - Screenshot da interface Swagger UI mostrando os endpoints disponíveis
-> - GIF demonstrando o fluxo de criação de um novo ramal
-> - Imagem da resposta JSON de exemplo dos endpoints
-> - Screenshot do banco H2 Console (se aplicável)
+> **Algumas ideias do que vou colocar:**
+> - Print da interface Swagger UI mostrando os endpoints
+> - GIF demonstrando o fluxo de criar um novo ramal
+> - Exemplo da resposta JSON dos endpoints
+> - Print do banco H2 Console (se aplicável)
 
-*Em breve serão adicionados exemplos visuais para facilitar o entendimento do projeto.*
+Em breve vou adicionar esses exemplos visuais pra facilitar o entendimento do projeto.
 
-## 📖 Status de Aprendizado
+## 📚 Status de Aprendizado
 
 ⚠️ **Projeto em Desenvolvimento - Nível Iniciante**
 
-Este é um projeto de estudo desenvolvido por um programador iniciante em Java e Spring Boot. O código pode conter implementações básicas e está em constante evolução conforme novos conceitos são aprendidos.
+Esse é um projeto de estudo que desenvolvi como iniciante em Java e Spring Boot. O código tem implementações básicas e tá em constante evolução conforme vou aprendendo novos conceitos.
 
 ### Objetivos de Aprendizado:
 
@@ -108,42 +108,42 @@ Este é um projeto de estudo desenvolvido por um programador iniciante em Java e
 
 ## 🎯 Metas de Aprendizado Futuras
 
-Objetivos para evolução contínua do projeto e aprimoramento das habilidades em desenvolvimento:
+Coisas que quero implementar pra evoluir o projeto e minhas habilidades:
 
-- 📝 **Testes Automatizados**
-  - Implementar testes unitários com JUnit
-  - Criar testes de integração
-  - Adicionar cobertura de testes com JaCoCo
+### 📝 Testes Automatizados
+- Implementar testes unitários com JUnit
+- Criar testes de integração
+- Adicionar cobertura de testes com JaCoCo
 
-- 🔐 **Segurança de APIs**
-  - Implementar autenticação JWT
-  - Adicionar Spring Security
-  - Aplicar boas práticas de segurança (HTTPS, CORS)
+### 🔐 Segurança de APIs
+- Implementar autenticação JWT
+- Adicionar Spring Security
+- Aplicar boas práticas de segurança (HTTPS, CORS)
 
-- 🚀 **CI/CD Básico**
-  - Configurar GitHub Actions para build automático
-  - Implementar pipeline de testes automatizados
-  - Criar deploy automatizado (Heroku, Railway ou similar)
+### 🚀 CI/CD Básico
+- Configurar GitHub Actions pra build automático
+- Implementar pipeline de testes automatizados
+- Criar deploy automatizado (Heroku, Railway ou similar)
 
-- 🗄️ **Melhorias de Banco de Dados**
-  - Migrar para PostgreSQL em produção
-  - Implementar migrations com Flyway ou Liquibase
-  - Otimizar queries e índices
+### 🗄️ Melhorias de Banco de Dados
+- Migrar pra PostgreSQL em produção
+- Implementar migrations com Flyway ou Liquibase
+- Otimizar queries e índices
 
-- 📊 **Observabilidade**
-  - Adicionar logs estruturados
-  - Implementar métricas com Spring Actuator
-  - Configurar monitoramento básico
+### 📊 Observabilidade
+- Adicionar logs estruturados
+- Implementar métricas com Spring Actuator
+- Configurar monitoramento básico
 
 ## 🤝 Contribuições
 
-Sugestões e feedbacks são bem-vindos! Este é um projeto de aprendizado e qualquer orientação é muito apreciada.
+Sugestões e feedbacks são muito bem-vindos! Esse é um projeto de aprendizado e qualquer dica é super apreciada.
 
 ## 👨‍💻 Sobre o Desenvolvedor
 
-Sou um desenvolvedor em constante aprendizado, buscando ativamente interagir em projetos open source e participar de comunidades de tecnologia. Acredito na colaboração e no compartilhamento de conhecimento como pilares fundamentais para o crescimento profissional.
+Sou um desenvolvedor em constante aprendizado, buscando crescer na área e interagir com projetos open source e comunidades de tecnologia. Acredito que colaboração e compartilhamento de conhecimento são fundamentais pro crescimento profissional.
 
-Estou sempre aberto a novas oportunidades de aprendizado, mentoria e contribuição em projetos que possam agregar valor e expandir minhas habilidades técnicas.
+Tô sempre aberto a novas oportunidades de aprendizado, mentoria e contribuição em projetos que possam agregar valor e expandir minhas habilidades técnicas.
 
 ## 📝 Direitos Autorais e Uso
 
@@ -152,7 +152,5 @@ Estou sempre aberto a novas oportunidades de aprendizado, mentoria e contribuiç
 Este projeto é de uso exclusivo, não pode ser distribuído, modificado ou utilizado por terceiros sem meu consentimento explícito.
 
 Todos os direitos autorais são reservados. Nenhuma parte deste projeto pode ser reproduzida, distribuída ou transmitida de qualquer forma ou por qualquer meio sem a permissão prévia por escrito do autor.
-
----
 
 **Desenvolvido com 💙 por Octavio Costa Chiquim**
